@@ -64,7 +64,7 @@ fn main_execution() -> Result<()> {
         )
     }
     let scarb_stdout = String::from_utf8_lossy(&build_output.stdout);
-
+    println!("{}", scarb_stdout);
     if scarb_stdout.contains("warn:") {
         println!("{}", scarb_stdout);
     }

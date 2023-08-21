@@ -4,7 +4,7 @@ version = "0.1.0"
 
 [dependencies]
 starknet = "2.1.0"
-snforge_std = { path = "../../../../../snforge_std" }
+snforge_std = {  git = "https://github.com/foundry-rs/starknet-foundry.git", branch = "411-test" }
 
 [[target.starknet-contract]]
 sierra = true
