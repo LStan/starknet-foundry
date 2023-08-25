@@ -78,6 +78,8 @@ However, when running this test, we will get a failure with a message
 
 ```shell
 $ snforge
+   Compiling [..]
+    Finished release target(s) in 2 seconds
 Collected 1 test(s) and 1 test file(s)
 Running 1 test(s) from package_name package
 [FAIL] package_name::call_and_invoke
@@ -125,6 +127,8 @@ The test will now pass without an error
 
 ```shell
 $ snforge
+   Compiling [..]
+    Finished release target(s) in 2 seconds
 Collected 1 test(s) and 1 test file(s)
 Running 1 test(s) from package_name package
 [PASS] package_name::call_and_invoke
@@ -158,6 +162,8 @@ fn call_and_invoke() {
 
 ```shell
 $ snforge
+   Compiling [..]
+    Finished release target(s) in 2 seconds
 Collected 1 test(s) and 1 test file(s)
 Running 1 test(s) from package_name package
 [FAIL] package_name::call_and_invoke

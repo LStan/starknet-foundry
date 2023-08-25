@@ -40,6 +40,8 @@ And run tests with `snforge`
 
 ```shell
 $ snforge
+   Compiling [..]
+    Finished release target(s) in 2 seconds
 Collected 2 test(s) and 2 test file(s)
 Running 0 test(s) from package_name package
 Running 2 test(s) from tests/test_contract.cairo

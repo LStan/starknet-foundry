@@ -4,6 +4,8 @@ To run tests with Forge, simply run the `snforge` command from the package direc
 
 ```shell
 $ snforge
+   Compiling [..]
+    Finished release target(s) in 2 seconds
 Collected 3 test(s) and 1 test file(s)
 Running 3 test(s) from package_name package
 [PASS] package_name::executing
@@ -19,6 +21,8 @@ By default, any test name matching the filter will be run.
 
 ```shell
 $ snforge calling
+   Compiling [..]
+    Finished release target(s) in 2 seconds
 Collected 2 test(s) and 1 test file(s)
 Running 2 test(s) from package_name package
 [PASS] package_name::calling
@@ -33,6 +37,8 @@ Note, you have to use a fully qualified test name, including a module name.
 
 ```shell
 $ snforge package_name::calling --exact
+   Compiling [..]
+    Finished release target(s) in 2 seconds
 Collected 1 test(s) and 1 test file(s)
 Running 1 test(s) from package_name package
 [PASS] package_name::calling
@@ -45,6 +51,8 @@ To stop the test execution after first failed test, you can pass an `--exit-firs
 
 ```shell
 $ snforge --exit-first
+   Compiling [..]
+    Finished release target(s) in 2 seconds
 Collected 6 test(s) and 1 test file(s)
 Running 6 test(s) from package_name package
 [PASS] package_name::executing

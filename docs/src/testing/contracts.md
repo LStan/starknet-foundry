@@ -79,7 +79,8 @@ fn call_and_invoke() {
 ```
 
 ```shell
-$ snforge
+   Compiling [..]
+    Finished release target(s) in 2 seconds
 Collected 1 test(s) and 1 test file(s)
 Running 1 test(s) from using_dispatchers
 [PASS] using_dispatchers::call_and_invoke
@@ -174,7 +175,8 @@ fn handling_errors() {
 Now the test passes as expected.
 
 ```shell
-$ snforge
+   Compiling [..]
+    Finished release target(s) in 2 seconds
 Collected 1 test(s) and 1 test file(s)
 Running 1 test(s) from package_name package
 [PASS] package_name::handling_errors

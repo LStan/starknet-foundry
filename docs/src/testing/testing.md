@@ -25,6 +25,8 @@ Now run forge using a command:
 
 ```shell
 $ snforge
+   Compiling [..]
+    Finished release target(s) in 2 seconds
 Collected 1 test(s) and 1 test file(s)
 Running 1 test(s) from package_name package
 [PASS] package_name::test_sum
@@ -63,6 +65,8 @@ fn failing() {
 
 ```shell
 $ snforge
+   Compiling [..]
+    Finished release target(s) in 2 seconds
 Collected 1 test(s) and 1 test file(s)
 Running 1 test(s) from package_name package
 [FAIL] package_name::failing
@@ -89,6 +93,8 @@ fn should_panic_check_data() {
 
 ```shell
 $ snforge
+   Compiling [..]
+    Finished release target(s) in 2 seconds
 Collected 1 test(s) and 1 test file(s)
 Running 1 test(s) from package_name package
 [PASS] src::should_panic_check_data
